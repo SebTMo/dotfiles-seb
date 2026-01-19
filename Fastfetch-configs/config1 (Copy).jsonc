@@ -1,0 +1,62 @@
+// created by swh
+  //},
+  //{
+    //"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    //"logo": {
+        //"padding": {
+           // "top": 2
+        //}
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/seb/Fastfetch-configs/img.png",
+    "type": "sixel",
+    	"height": 18,
+    	"padding": {
+    		"top": 2
+    	}
+  },
+   "display": {
+        "separator": "  ->  "
+    },
+  "modules": [
+
+    "title",
+    "host",
+    "bios",
+    "cpu",
+    "gpu",
+    "vulkan",
+    "disk",
+    "memory",
+    "swap",
+    "display",
+    "sound",
+        "os",
+        "kernel",
+        "lm",
+        "de",
+        "wm",
+        "shell",
+        "terminal",
+        "terminalfont",
+        "font",
+        "theme",
+        "icons",
+        "packages",
+        "uptime",
+        "media",
+        "break",
+    {
+      "type": "custom",
+      "format": "└────────────────────── \u001B[1mFedora Forever \u001B[0m─────────────────────────┘"
+    },
+    "break",
+       {
+            "type": "colors",
+            "paddingLeft": 26,
+            "symbol": "circle"
+        }
+    ]
+}
